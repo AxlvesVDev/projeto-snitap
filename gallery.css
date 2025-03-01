@@ -39,8 +39,8 @@ section.gallery {
     animation-timeline: view();
     animation-range: 100px 350px; /* onde eu quero que comece mminha animação  */ 
 
-    &[data-delay] { 
-      animation-range: 150px 350px;
+    & [data-delay] { 
+      animation-range: 150px 300px;
     }
 
     & > img { 
